@@ -7,7 +7,7 @@ const app = new Vue ({
     },
     methods: {
         move() {
-            const se = new Audio("Camera-Phone03-1.mp3")
+            const se = new Audio("media/Camera-Phone03-1.mp3")
             se.play()
             this.seen = true
             setTimeout(() => {
